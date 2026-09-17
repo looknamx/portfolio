@@ -25,7 +25,7 @@ export const config = {
   accentColor: '#176b50',
   // Absolute production URL, including the repository path. Auto-detected in Actions if empty.
   canonicalUrl: '',
-  cacheMinutes: 15,
+  cacheMinutes: 5,
 };
 export const isConfigured =
   config.githubUsername !== 'YOUR_GITHUB_USERNAME' &&
